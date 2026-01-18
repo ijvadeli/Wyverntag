@@ -31,7 +31,7 @@ const land = ["Maevia", "Oceanius", "Frysia", "Draconia", "Wyvernden", "Landoria
 const biome = ["Hills", "Mountains", "Rivers", "Forest", "Village", "Castle", "Wasteland", "Farms", "Caves"];
 // Enemy
 const title = ["Almighty", "Weak", "Trickster", "Foolish", "Evil", "Peaceful"];
-const type = ["Mythical", "Forest", "Shadow", "Elemental", "Cursed", "Dragonkin", "Fey", "Undead", "Celestial", "Demonic", "Ancient", "Ice", "Vengeful", "Forest", "Cave", "Mountain", "Ocean", "Storm", "Desert", "Nightmare"];
+const type = ["Mythical", "Forest", "Shadow", "Cursed", "Dragonkin", "Fey", "Undead", "Celestial", "Demonic", "Ancient", "Ice", "Vengeful", "Forest", "Cave", "Mountain", "Ocean", "Storm", "Desert", "Nightmare"];
 //! Enemy race
 const race = ["Orc", "Dragon", "Wyvern", "Gnome", "Skeleton", "Bandit", "Witch", "Mage", "Sorceress", "Golem", "Warlord", "Defender", "Wraith", "Spirit", "Troll", "Thief", "Siren", "Elemental", "Behemoth", "King", "Queen"];
 // Loot drops (randomizer system too)
