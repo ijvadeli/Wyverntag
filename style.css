@@ -1,3 +1,17 @@
 body {
     background-color: black;
+    color: white;
+}
+
+#Log {
+    border: 1px solid white;
+    width: 150px;
+    height: 200px;
+    overflow: scroll;
+}
+
+#infoField {
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
 }
