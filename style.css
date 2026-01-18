@@ -1,17 +1,36 @@
 body {
     background-color: black;
     color: white;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#green {
+    color: green;
+}
+
+#gameField {
+    display: flex;
+    flex-direction: grid;
+    height: 500px;
 }
 
 #Log {
+    color: darkgoldenrod;
     border: 1px solid white;
-    width: 150px;
-    height: 200px;
-    overflow: scroll;
+    width: 325px;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 #infoField {
     border: 1px solid white;
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 100%;
+    overflow-y: scroll;
 }
