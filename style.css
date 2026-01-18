@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: lightgrey;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+div {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+#buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+#green {
+    color: green;
+}
+
+#gameField {
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: grid;
+    height: 500px;
+}
+
+#Log {
+    color: darkgoldenrod;
+    width: 25%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#infoField {
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#bestiary {
+    width: 25%;
+    height: 100%;
+    overflow-y: scroll;
+}
