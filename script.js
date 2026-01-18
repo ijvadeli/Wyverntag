@@ -92,8 +92,8 @@ function exploreC() {
     + location +
     ",<br/> You encounter:<br/>"
     + enemy +
-    "!<br/>"
-    + weaknessesText +
+    // "!<br/>"
+    // + weaknessesText +
     "!<br/>You fight it and gain "
     + loot +
     ".<hr/>";
