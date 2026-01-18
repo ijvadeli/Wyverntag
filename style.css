@@ -1,13 +1,23 @@
 body {
     background-color: black;
-    color: white;
+    color: lightgrey;
     font-family: monospace;
     font-size: 14px;
 }
 
 hr {
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid lightgrey;
+}
+
+div {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+#buttons {
+    text-align: center;
+    margin: 20px;
 }
 
 #green {
@@ -15,6 +25,8 @@ hr {
 }
 
 #gameField {
+    padding: 0px;
+    border: 0px;
     display: flex;
     flex-direction: grid;
     height: 500px;
@@ -22,15 +34,19 @@ hr {
 
 #Log {
     color: darkgoldenrod;
-    border: 1px solid white;
-    width: 325px;
+    width: 25%;
     height: 100%;
     overflow-y: scroll;
 }
 
 #infoField {
-    border: 1px solid white;
-    width: 500px;
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#bestiary {
+    width: 25%;
     height: 100%;
     overflow-y: scroll;
 }
